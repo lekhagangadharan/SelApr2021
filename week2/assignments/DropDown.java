@@ -12,6 +12,7 @@ public class DropDown {
 
 	public static void main(String[] args) {
 	
+		//Set up
 		WebDriverManager.chromedriver().setup();
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("http://www.leafground.com/pages/Dropdown.html");
