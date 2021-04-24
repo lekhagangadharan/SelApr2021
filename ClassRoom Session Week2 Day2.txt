@@ -1,0 +1,16 @@
+Class Room Exercise
+
+LeafTaps:
+1. Go to Find Leads Page and write xpath to locate the first resulting LeadId
+Click on 10004: (//div[@class='x-grid3-cell-inner x-grid3-col-partyId']/a)[1]
+
+
+2. Go to Merge Leads page and write xpath to locate From Lead image and To Lead image
+
+From Lead Image: //img[@alt='Lookup']
+To Lead: (//img[@alt='Lookup'])[2]
+
+3. Identify the fifth drop down element without using collection based xpath
+
+Using chile to parent relationship
+//option[text()='You can also use sendKeys to select']/parent::select
